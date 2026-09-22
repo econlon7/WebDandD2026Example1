@@ -28,7 +28,7 @@ app.set('views',  'views');
 
 // where to find static files - css, images, js
 // this needs to be uncommented so that the css file can be found and used in the layout.hbs file
-//app.use(express.static('public'));
+app.use(express.static('public'));
 
 // home page or home route
 app.get('/', (req, res) => {
