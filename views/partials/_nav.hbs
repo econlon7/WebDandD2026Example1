@@ -1,9 +1,16 @@
 
+<header>
+     <img id="logo" src="images/alexas_fotos-dog-2804950_1920.png" alt="logo">
+     <h1> Dog resources and information </h1>
+</header>
 <nav>
      <ul>
-          <li ><a  class='{{#if state.home}}active{{/if}}' href='/'>Home</a></li>     
+          <li><a  class='{{#if state.home}}active{{/if}}' href='/'>Home</a></li>     
+          <li><a class='{{#if state.shelters}}active{{/if}}' href='shelters'> Local dog shelters </a></li>
+          <li><a class='{{#if state.events}}active{{/if}}' href='events'> Events </a></li>
+          <li><a class='{{#if state.legislation}}active{{/if}}' href='legislation'> Legislation </a></li>
           <li><a class='{{#if state.contact}}active{{/if}}' href='contact'>Contact</a></li>
-
+          
      </ul>
 </nav>
 

@@ -4,7 +4,7 @@ header
     margin: 0px;
     height: 180px;
     padding: 1px;
-    background-image: url(../images/mrsmittens-dogs-resize_1920x347.jpg);
+    background-image: url(../images/mrsmittens-dogs-6063000.jpg);
     background-size: cover;
 }
 h1
@@ -252,3 +252,46 @@ article
     margin: 20px;
 
 }
+/* contact page =====================================================================================================*/
+
+        #contact_layout
+        {
+            margin: 15px auto ;
+            padding: 20px;
+            width: 40%;
+            border: solid black;
+            background: white;
+            min-height: 500px;
+            min-width: 400px;
+        }
+        .required
+        {
+            font-weight: bold;
+            color: red;
+        }
+        label
+        {
+            float: left;
+            width: 112px;
+            padding-right: 10px;
+            text-align: right;
+        }
+        input
+        {
+            margin-left: 1em;
+            margin-bottom: .5em;
+        }
+        #button
+        {
+            margin-left: 20%;
+        }
+        #button, #reset
+        {
+            margin-top: .5em;
+            width: 8em;
+            border: 2px solid black;
+        }
+        #button:hover, #reset:hover
+        {
+            background-color: aquamarine;
+        }
